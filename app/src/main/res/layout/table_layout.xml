@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:importantForAccessibility="auto"
+    android:baselineAligned="true"
+    android:stretchColumns="0,1,2">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button1"
+            android:layout_column="0"
+            android:textSize="62dp"
+            android:textAlignment="center"
+            android:onClick="btnClk"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" "
+            android:id="@+id/button4"
+            android:layout_column="1"
+            android:textSize="62dp"
+            android:textAlignment="center"
+            android:onClick="btnClk"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button5"
+            android:layout_column="2"
+            android:textSize="62dp"
+            android:textAlignment="center"
+            android:onClick="btnClk"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" "
+            android:id="@+id/button2"
+            android:layout_column="0"
+            android:textSize="62dp"
+            android:textAlignment="center"
+            android:onClick="btnClk"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button6"
+            android:layout_column="1"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="62dp"
+            android:text=" "
+            android:singleLine="false"
+            android:onClick="btnClk" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button7"
+            android:layout_column="2"
+            android:textSize="62dp"
+            android:textAlignment="center"
+            android:onClick="btnClk"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button3"
+            android:layout_column="0"
+            android:textSize="62dp"
+            android:textAlignment="center"
+            android:onClick="btnClk"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/button8"
+            android:layout_column="1"
+            android:textSize="62dp"
+            android:textAlignment="center"
+            android:onClick="btnClk"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=" "
+            android:id="@+id/button9"
+            android:layout_column="2"
+            android:textSize="62dp"
+            android:textAlignment="center"
+            android:onClick="btnClk"
+            android:textStyle="bold" />
+    </TableRow>
+
+</TableLayout>
